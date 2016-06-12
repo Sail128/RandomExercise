@@ -7,18 +7,18 @@
     <link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <style type="text/css">
-        body{
-            padding:30px;
+        body {
+            padding: 30px;
         }
     </style>
 </head>
 
 <body>
-    <div class="row"><input id="ch" type="text" name=""/></div>
+    <div class="row"><input id="ch" type="text" name="" /></div>
     <div class="row">
         <div class="col-md-6">
-            
-            <textarea  id="text" class="col-md-6" type="textarea" name=""></textarea>
+
+            <textarea id="text" class="col-md-6" height="400px" type="textarea" name=""></textarea>
         </div>
         <div id="out" class="col-md-6">
 
@@ -26,16 +26,27 @@
     </div>
     <div class="row">
         <button onclick="foo()" class="btn">do</button>
+        <button onclick="bar()" class="btn">range</button>
     </div>
 
     <script type="text/javascript">
         function foo() {
             var text = $("#text").val();
             text = text.split("\n");
-            for(var i =0;i<text.length;i++){
+            for (var i = 0; i < text.length; i++) {
                 text[i] = $("#ch").val() + " - " + text[i];
             }
             $("#out").text(JSON.stringify(text));
+        }
+
+        function bar() {
+            var vals = $('#ch').val().split("-");
+
+            var text = "";
+            for (var i = vals[0]; i <= vals[1]; i++) {
+                text += i.toString() + "<br/>";
+            }
+            $("#out").html(text);
         }
     </script>
 </body>

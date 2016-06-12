@@ -1,1 +1,19 @@
-var h5 = ["h6 - 1","h6 - 2","h6 - 3","h6 - 4","h6 - 5","h6 - 6","h6 - 7","h6 - 8","h6 - 9","h6 - 10"];
+var h6 = ["h6 - 5", "h6 - 14", "h6 - 19", "h6 - 24", "h6 - 25", "h6 - 28", "h6 - 31", "h6 - 40", "h6 - 41", "h6 - 42", "h6 - 43", "h6 - 50", "h6 - 55", "h6 - 56"];
+var d6 = ["d-toets h6 - 1", "d-toets h6 - 2", "d-toets h6 - 3", "d-toets h6 - 4", "d-toets h6 - 5", "d-toets h6 - 6", "d-toets h6 - 7", "d-toets h6 - 8", "d-toets h6 - 9", "d-toets h6 - 10", "d-toets h6 - 11", "d-toets h6 - 12", "d-toets h6 - 13", "d-toets h6 - 14", "d-toets h6 - 15", "d-toets h6 - 16", "d-toets h6 - 17", "d-toets h6 - 18", "d-toets h6 - 19"];
+var g6 = ["gemengde h6 - 6", "gemengde h6 - 7", "gemengde h6 - 8", "gemengde h6 - 9", "gemengde h6 - 10", "gemengde h6 - 11", "gemengde h6 - 12", "gemengde h6 - 13", "gemengde h6 - 14", "gemengde h6 - 15", "gemengde h6 - 16", "gemengde h6 - 17", "gemengde h6 - 18", "gemengde h6 - 19", "gemengde h6 - 20", "gemengde h6 - 21", "gemengde h6 - 22", "gemengde h6 - 23", "gemengde h6 - 24", "gemengde h6 - 25", "gemengde h6 - 26"];
+
+var h8 = ["h8 - 12", "h8 - 17", "h8 - 25", "h8 - 26", "h8 - 27", "h8 - 53", "h8 - 55", "h8 - 59", "h8 - 61"];
+var d8 = ["d-toets h8 - 1", "d-toets h8 - 2", "d-toets h8 - 3", "d-toets h8 - 4", "d-toets h8 - 5", "d-toets h8 - 6", "d-toets h8 - 7", "d-toets h8 - 8", "d-toets h8 - 9", "d-toets h8 - 10", "d-toets h8 - 11", "d-toets h8 - 12", "d-toets h8 - 13", "d-toets h8 - 14", "d-toets h8 - 15"];
+var g8 = ["gemengde h8 - 40", "gemengde h8 - 41", "gemengde h8 - 42", "gemengde h8 - 43", "gemengde h8 - 44", "gemengde h8 - 45", "gemengde h8 - 46", "gemengde h8 - 47", "gemengde h8 - 48", "gemengde h8 - 49"];
+
+var h9 = ["h9 - 9", "h9 - 14", "h9 - 19", "h9 - 23", "h9 - 24", "h9 - 28", "h9 - 29", "h9 - 33", "h9 - 34", "h9 - 39", "h9 - 44", "h9 - 46", "h9 - 52", "h9 - 56", "h9 - 57", "h9 - 64", "h9 - 66", "h9 - 67", "h9 - 73", "h9 - 77", "h9 - 78"];
+var d9 = ["d-toets h9 - 1", "d-toets h9 - 2", "d-toets h9 - 3", "d-toets h9 - 4", "d-toets h9 - 5", "d-toets h9 - 6", "d-toets h9 - 7", "d-toets h9 - 8", "d-toets h9 - 9", "d-toets h9 - 10", "d-toets h9 - 11", "d-toets h9 - 12", "d-toets h9 - 13", "d-toets 9 - 14", "d-toets h9 - 15", "d-toets h9 - 16", "d-toets h9 - 17"];
+var g9 = ["gemengde h9 - 1", "gemengde h9 - 2", "gemengde h9 - 3", "gemengde h9 - 4", "gemengde h9 - 5", "gemengde h9 - 6", "gemengde h9 - 7", "gemengde h9 - 8", "gemengde h9 - 9", "gemengde h9 - 10", "gemengde h9 - 11", "gemengde h9 - 12"];
+
+var h10 = ["h10 - 5", "h10 - 9", "h10 - 10", "h10 - 14", "h10 - 18", "h10 - 24", "h10 - 25", "h10 - 29", "h10 - 30", "h10 - 40", "h10 - 42", "h10 - 48", "h10 - 49", "h10 - 53", "h10 - 54", "h10 - 61", "h10 - 62", "h10 - 66", "h10 - 67", "h10 - 68", "h10 - 72", "h10 - 73"];
+var d10 = ["d-toets h10 - 1", "d-toets h10 - 2", "d-toets h10 - 3", "d-toets h10 - 4", "d-toets h10 - 5", "d-toets h10 - 6", "d-toets h10 - 7", "d-toets h10 - 8", "d-toets h10 - 9", "d-toets h10 - 10", "d-toets h10 - 11", "d-toets h10 - 12", "d-toets h10 - 13"];
+var g10 = ["gemengde h10 - 13", "gemengde h10 - 14", "gemengde h10 - 15", "gemengde h10 - 16", "gemengde h10 - 17", "gemengde h10 - 18", "gemengde h10 - 19", "gemengde h10 - 20", "gemengde h10 - 21", "gemengde h10 - 22", "gemengde h10 - 23", "gemengde h10 - 24"];
+
+var h11 = ["h11 - 11", "h11 - 19", "h11 - 25", "h11 - 34", "h11 - 35", "h11 - 40", "h11 - 41", "h11 - 45", "h11 - 51", "h11 - 52", "h11 - 53", "h11 - 58", "h11 - 59", "h11 - 66", "h11 - 67", "h11 - 68"];
+var d11 = ["d-toets h11 - 1", "d-toets h11 - 2", "d-toets h11 - 3", "d-toets h11 - 4", "d-toets h11 - 5", "d-toets h11 - 6", "d-toets h11 - 7", "d-toets h11 - 8", "d-toets h11 - 9", "d-toets h11 - 10", "d-toets h11 - 11", "d-toets h11 - 12", "d-toets h11 - 13"];
+var g11 = ["gemengde h11 - 25", "gemengde h11 - 26", "gemengde h11 - 27", "gemengde h11 - 28", "gemengde h11 - 29", "gemengde h11 - 30", "gemengde h11 - 31", "gemengde h11 - 32", "gemengde h11 - 33", "gemengde h11 - 34", "gemengde h11 - 35", "gemengde h11 - 36", "gemengde h11 - 37", "gemengde h11 - 38"];
