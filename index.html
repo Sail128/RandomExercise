@@ -29,7 +29,7 @@
 
                 <div class=" col-xs-2">
                     <div class="checkbox">
-                        <label><input name="h8" type="checkbox" checked> H8</label>
+                        <label><input name="h8" type="checkbox" > H8</label>
                     </div>
 
                 </div>
@@ -69,7 +69,7 @@
 
                 <div class=" col-xs-2">
                     <div class="checkbox">
-                        <label><input name="g8" type="checkbox" checked> g8</label>
+                        <label><input name="g8" type="checkbox" > g8</label>
                     </div>
 
                 </div>
@@ -110,7 +110,7 @@
 
                 <div class=" col-xs-2">
                     <div class="checkbox">
-                        <label><input name="d8" type="checkbox" checked> d8</label>
+                        <label><input name="d8" type="checkbox" > d8</label>
                     </div>
 
                 </div>
@@ -156,6 +156,9 @@
         </div>
         <div class="row col-xs-offset-2">
             <button onclick="select()" class="btn btn-default">Redo</button>
+        </div>
+        <div class="row col-xs-offset-2">
+            <button onclick="reset()" class="btn btn-default">Reset</button>
         </div>
     </div>
     <script type="text/javascript">
@@ -253,6 +256,12 @@
                 text += "<p>" + exe + "</p>";
             }
             $('#exerc').html(text);
+        }
+
+        function reset() {
+            $('#screen').toggleClass("hidden");
+            $('#input').toggleClass("hidden");
+            exercises = [];
         }
 
         function getRandomInt(min, max) {
