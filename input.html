@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>INPUT</title>
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <style type="text/css">
+        body{
+            padding:30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row"><input id="ch" type="text" name=""/></div>
+    <div class="row">
+        <div class="col-md-6">
+            
+            <textarea  id="text" class="col-md-6" type="textarea" name=""></textarea>
+        </div>
+        <div id="out" class="col-md-6">
+
+        </div>
+    </div>
+    <div class="row">
+        <button onclick="foo()" class="btn">do</button>
+    </div>
+
+    <script type="text/javascript">
+        function foo() {
+            var text = $("#text").val();
+            text = text.split("\n");
+            for(var i =0;i<text.length;i++){
+                text[i] = $("#ch").val() + " - " + text[i];
+            }
+            $("#out").text(JSON.stringify(text));
+        }
+    </script>
+</body>
+
+</html>
